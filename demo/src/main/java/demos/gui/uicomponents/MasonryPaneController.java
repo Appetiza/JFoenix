@@ -1,7 +1,7 @@
 package demos.gui.uicomponents;
 
 import com.jfoenix.controls.JFXButton;
-import com.jfoenix.controls.JFXButton.ButtonType;
+import com.jfoenix.controls.ButtonType;
 import com.jfoenix.controls.JFXMasonryPane;
 import com.jfoenix.controls.JFXScrollPane;
 import com.jfoenix.effects.JFXDepthManager;

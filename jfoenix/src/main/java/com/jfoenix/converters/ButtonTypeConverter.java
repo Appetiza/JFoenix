@@ -19,9 +19,9 @@
 
 package com.jfoenix.converters;
 
+import com.jfoenix.controls.ButtonType;
 import java.util.logging.Logger;
 
-import com.jfoenix.controls.JFXButton.ButtonType;
 import com.sun.javafx.css.StyleConverterImpl;
 
 import javafx.css.ParsedValue;

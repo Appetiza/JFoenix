@@ -135,9 +135,6 @@ public class JFXButton extends Button {
      */
     private static final String DEFAULT_STYLE_CLASS = "jfx-button";
 
-
-    public enum ButtonType {FLAT, RAISED}
-
     /**
      * according to material design the button has two types:
      * - flat : only shows the ripple effect upon clicking the button

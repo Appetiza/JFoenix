@@ -1,7 +1,7 @@
 package demos.components;
 
 import com.jfoenix.controls.JFXButton;
-import com.jfoenix.controls.JFXButton.ButtonType;
+import com.jfoenix.controls.ButtonType;
 import com.jfoenix.controls.JFXNodesList;
 import javafx.animation.Interpolator;
 import javafx.animation.KeyValue;

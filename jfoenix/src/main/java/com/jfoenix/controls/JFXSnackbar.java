@@ -19,7 +19,7 @@
 
 package com.jfoenix.controls;
 
-import com.jfoenix.controls.JFXButton.ButtonType;
+import com.jfoenix.controls.ButtonType;
 import javafx.animation.Interpolator;
 import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;

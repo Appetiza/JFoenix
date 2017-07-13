@@ -26,6 +26,9 @@ public class SideMenuController {
     @ActionTrigger("buttons")
     private Label button;
     @FXML
+    @ActionTrigger("menuButtons")
+    private Label menuButton;
+    @FXML
     @ActionTrigger("checkbox")
     private Label checkbox;
     @FXML
@@ -100,6 +103,7 @@ public class SideMenuController {
         });
         Flow contentFlow = (Flow) context.getRegisteredObject("ContentFlow");
         bindNodeToController(button, ButtonController.class, contentFlow, contentFlowHandler);
+        bindNodeToController(menuButton, MenuButtonController.class, contentFlow, contentFlowHandler);
         bindNodeToController(checkbox, CheckboxController.class, contentFlow, contentFlowHandler);
         bindNodeToController(combobox, ComboBoxController.class, contentFlow, contentFlowHandler);
         bindNodeToController(dialogs, DialogController.class, contentFlow, contentFlowHandler);
